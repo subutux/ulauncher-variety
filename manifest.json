@@ -1,0 +1,19 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Ulauncher Variety Extension",
+    "description": "Ulauncher extension for managing Variety.",
+    "developer_name": "Stijn Van Campenhout",
+    "icon": "icons/variety.svg",
+    "options": {
+      "query_debounce": 0.1
+    },
+    "preferences": [
+      {
+        "id": "l_kw",
+        "type": "keyword",
+        "name": "Variety commands",
+        "description": "Execute a variety command",
+        "default_value": "v"
+      }
+    ]
+  }
